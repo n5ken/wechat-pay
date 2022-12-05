@@ -9,14 +9,14 @@ Gem::Specification.new do |s|
   s.version     = WechatPay::VERSION
   s.summary     = 'Wechat Pay in api V3'
   s.description = 'A simple Wechat pay ruby gem in api V3.'
-  s.authors     = ['lanzhiheng']
+  s.authors     = ['lanzhiheng', 'n5ken']
   s.email       = 'lanzhihengrj@gmail.com'
   s.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
   s.required_ruby_version = '>= 2.6'
   s.require_paths = ['lib']
-  s.homepage = 'https://github.com/lanzhiheng/wechat-pay/'
+  s.homepage = 'https://github.com/n5ken/wechat-pay/'
   s.license = 'MIT'
 
   s.add_runtime_dependency 'activesupport', '>= 6.0'
